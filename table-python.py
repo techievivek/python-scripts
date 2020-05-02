@@ -14,15 +14,13 @@ print(table(data))
 print(table(data,headers="keys"))
 print()
 #Lets style our table differently.
-# plain, simple, grid, html, github
+# plain, simple, grid, html, github, pretty, fancy_grid
 print(table(data,headers="keys",tablefmt="plain"))
-print()
 print(table(data,headers="keys",tablefmt="simple"))
-print()
 print(table(data,headers="keys",tablefmt="grid"))
-print()
+print(table(data,headers="keys",tablefmt="fancy_grid"))
 print(table(data,headers="keys",tablefmt="github"))
-print()
+print(table(data,headers="keys",tablefmt="pretty"))
 print(table(data,headers="keys",tablefmt="html"))
 #We can also given numbering to each row-data
 print(table(data,headers="keys",tablefmt="grid",showindex="always"))
